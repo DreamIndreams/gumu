@@ -1,0 +1,34 @@
+<!--上下浮动-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>上下浮动</title>
+    <style>
+        *{padding:0;margin:0;}
+        .demo{
+            width:160px;
+            margin:0 auto;
+            animation:Updown 1s infinite alternate;
+            -webkit-animation:Updown 1s alternate infinite;/*infinite无限播放，alternate轮流反向播放*/
+        }
+
+        @keyframes Updown{
+            from{margin-top:30px;}
+            to{margin-top:10px;}
+        }
+        @-webkit-keyframes Updown{
+            from{margin-top:30px;}
+            to{margin-top:10px;}
+        }
+
+    </style>
+</head>
+<body>
+<!-- 代码 开始 -->
+<div class="demo">
+    <img src='../images/inworks-180x180.jpg'/>
+</div>
+<!-- 代码 结束 -->
+</body>
+</html>

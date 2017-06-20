@@ -14,7 +14,7 @@ angular.module('app')
             views:{
                 'main':{
                     controller:'homeCtrl',
-                    templateUrl:'home/home.html'
+                    templateUrl:'views/home/home.html'
                 }
             }
         })
@@ -23,7 +23,7 @@ angular.module('app')
             views:{
                 'main':{
                     // controller:'homeCtrl',
-                    templateUrl:'news/news-list.html'
+                    templateUrl:'views/news/news-list.html'
                 }
             }
         })

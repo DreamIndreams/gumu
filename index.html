@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta name="format-detection" content="telephone=no">
+    <title>古墓丽影中文站</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script type="text/javascript" src="js/jquery.min.js" ></script>
+    <script src="js/angular.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <!--<script type="text/javascript" src="../js/angular-ui-router/release/angular-ui-router.min.js"></script>-->
+    <!--<script type="text/javascript" src="../controller/main.js"></script>-->
+    <!--<script type="text/javascript" src="../controller/home.js"></script>-->
+    <script type="text/javascript" src="router.js"></script>
+    <script type="text/javascript" src="directive.js"></script>
+    <script type="text/javascript" src="controller/main.js"></script>
+    <script type="text/javascript" src="controller/home.js"></script>
+</head>
+<body>
+<div ng-include="'template/header.html'"></div>
+<div ui-view="main">
+</div>
+<div ng-include="'template/footer.html'"></div>
+</body>
+</html>
